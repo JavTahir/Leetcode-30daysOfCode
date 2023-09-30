@@ -16,7 +16,7 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         String[] operations = {"++X", "++X", "X--"};
-        int result = solution.finalValueAfterOperations(operations);
-        System.out.println("Final value of X: " + result);
+        int res = solution.finalValueAfterOperations(operations);
+        System.out.println("Final value of X: " + res);
     }
 }
